@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main() {
-    std::vector<int> arr = {1, 3, -34, 5, -6, -6, 2, -90, -6, 5, -6, 99, -6, 156, 0, 0, -6, 15, -6, 0, -90, -62, -10, 17, 0};
+    std::vector<int> arr = {1, 3, -34, 5, -6, -6, 2, -90, -6, 5, -6, 99, -6, 156, 0, 0, -6, 15, -6, 0, -90, -62, -10, 17, 0, 4};
     float positiveFraction =0, negativeFraction =0, zeroFraction =0;
     int positiveCount = 0, negativeCount = 0,zeroCount = 0;
     std::vector<float> result;
