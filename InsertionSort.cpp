@@ -35,7 +35,18 @@ void printArray(int arr[], int n)
 // Driver code
 int main()
 {
-    int arr[] = { 12, 11, 13, 5, 6 };
+
+    int arrSize = 5000;
+    int arr[arrSize];
+
+
+    //Generate a random array size and integers
+    for (int k = 0; k < arrSize; k++) {
+        arr[k]=rand()%arrSize;
+        // cout << arr[k] << " ";
+    }
+    cout << endl;
+
     int N = sizeof(arr) / sizeof(arr[0]);
  
     insertionSort(arr, N);
@@ -43,4 +54,3 @@ int main()
  
     return 0;
 }
-// This is code is contributed by rathbhupendra
