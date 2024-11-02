@@ -36,7 +36,7 @@ void printArray(int arr[], int n)
 int main()
 {
 
-    int arrSize = 5000;
+    int arrSize = 100;
     int arr[arrSize];
 
 
